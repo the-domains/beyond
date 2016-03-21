@@ -1,8 +1,4 @@
-favicon: null
-analytics:
-  twitter: null
-  google: null
-  facebook: null
+name: beyond
 opengraph:
   image: null
   type: null
@@ -21,20 +17,24 @@ collections:
       path: '/:title/'
 purpose: []
 color:
-  saturation: 0.3474758
+  saturation: 0.462406
   brandStrength: 0.9796250096987933
-  lightness: 0.5053706
+  lightness: 0.6621912
   brandColors:
     - '#BED6EA'
     - '#287E67'
     - '#88B5AB'
     - '#1F3038'
     - '#63551F'
-  rhythmicContrast: 0.9319962
-typography_spectrum: 0
-layout_spectrum: 0.2411385
+  rhythmicContrast: 1
+typography_spectrum: 0.4312567
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
 cta:
   bucket: null
   version: null
   domain: null
-name: beyond
