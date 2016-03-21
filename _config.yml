@@ -1,28 +1,40 @@
-name: beyond
-favicon: null
 layout_spectrum: 1
-typography_spectrum: 0.44586
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#f5fbfb'
-    - '#a5b4c7'
-    - '#090909'
-    - '#63cf18'
-    - '#6581aa'
-  brandStrength: 0.9796250096987933
-  lightness: 0.6085015262942761
-  saturation: 0.3440394261851907
-  rhythmicContrast: 0.9319961408618838
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.3474758
+  brandStrength: 0.9796250096987933
+  lightness: 0.5053706
+  brandColors:
+    - '#BED6EA'
+    - '#287E67'
+    - '#88B5AB'
+    - '#1F3038'
+    - '#63551F'
+  rhythmicContrast: 0.9319962
+typography_spectrum: 0.44586
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: beyond
