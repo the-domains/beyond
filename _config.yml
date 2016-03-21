@@ -1,4 +1,8 @@
-layout_spectrum: 1
+favicon: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
 opengraph:
   image: null
   type: null
@@ -9,12 +13,12 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 purpose: []
 color:
   saturation: 0.3474758
@@ -27,14 +31,10 @@ color:
     - '#1F3038'
     - '#63551F'
   rhythmicContrast: 0.9319962
-typography_spectrum: 0.44586
+typography_spectrum: 0
+layout_spectrum: 0.2411385
 cta:
   bucket: null
   version: null
   domain: null
-analytics:
-  twitter: null
-  google: null
-  facebook: null
-favicon: null
 name: beyond
